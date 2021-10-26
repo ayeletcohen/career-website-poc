@@ -7,7 +7,7 @@ const SubCategoryView = ({ subCategory, expanded, onClick, onJobClick }) => {
   return (
     <>
       <div
-        style={{ border: "1px solid pink", cursor: "pointer" }}
+        style={{ border: "1px solid navy", cursor: "pointer" }}
         onClick={onClick}
       >
         <div>{subCategory.name}</div>
