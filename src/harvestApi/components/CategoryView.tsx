@@ -52,6 +52,7 @@ const CategoryView = ({ categoryName, subCategoriesData, onJobClick }) => {
             />
           </div>
         ))}
+        <img src="/images/halloween-desktop.jpg" />
       </div>
     </>
   );
